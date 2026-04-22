@@ -540,14 +540,14 @@ function IntroSection() {
     </section>
   );
 }
-
+/*
 const BLOG_POSTS = [
   { cat: "personal",  title: "Post title placeholder one",   date: "Apr 14, 2026", read: "3 min" },
   { cat: "tech",      title: "Post title placeholder two",   date: "Mar 29, 2026", read: "2 min" },
   { cat: "startups",  title: "Post title placeholder three", date: "Mar 14, 2026", read: "4 min" },
   { cat: "dj / music","title": "Post title placeholder four",date: "Feb 22, 2026", read: "2 min" },
 ];
-
+*/
 function BlogSection() {
   const ref = useFadeOnScroll();
   return (
@@ -597,10 +597,10 @@ function WhoSection() {
 }
 
 const DRIVES = [
-  { n: "01", text: "Placeholder — authentic aspiration or core value." },
-  { n: "02", text: "Placeholder — what you're obsessively learning right now." },
-  { n: "03", text: "Placeholder — how you want to give back or share." },
-  { n: "04", text: "Placeholder — the kind of impact you want to have." },
+  { n: "01", text: "becoming someone I respect" },
+  { n: "02", text: "doing the hard work especially when I don't feel like it" },
+  { n: "03", text: "creating a life with freedom - location, time, and money" },
+  { n: "04", text: "living my 20s and experiencing everything: music, travel, culture" },
 ];
 
 function DrivesSection() {
