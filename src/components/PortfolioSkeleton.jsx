@@ -504,12 +504,12 @@ function Hero() {
           the world is yours.
         </h1>
         <p className="hero-sub">
-          [One-line placeholder — developer by day, something else by night.]
+          building my life my way - code, music and everything in between
         </p>
         <div className="hero-roles">
           <span className="hero-badge">developer</span>
           <span className="hero-badge">dj</span>
-          <span className="hero-badge">[role 3]</span>
+          <span className="hero-badge">creator</span>
         </div>
       </div>
     </section>
@@ -521,14 +521,14 @@ function IntroSection() {
   return (
     <section>
       <div ref={ref} className="fade-up">
-        <h2 className="section-tag"><span className="bracket">[</span>why are you seeing this<span className="bracket">]</span></h2>
+        <h2 className="section-tag"><span className="bracket">[</span>this is me<span className="bracket">]</span></h2>
         <div className="intro-grid">
           <div className="intro-body">
             <p>
-              Placeholder paragraph one. Describe your origin story — where you started, what you realised was missing, what changed. Keep it honest, keep it short. Two or three sentences max per paragraph.
+            I wasn’t always disciplined. I used to procrastinate, overthink everything, and feel stuck without a clear direction. I knew I wanted more, but I wasn’t doing what it took.  
             </p>
             <p>
-              Placeholder paragraph two. What you started doing about it — the uncomfortable actions, the experiments, the small bets. This is the "so I…" part of the story.
+            Things changed after a few turning points in my life. I started working on myself, building better habits, and focusing on what I can control. Still far from perfect, but now I move with intention.
             </p>
             <a href="#about" className="intro-cta">about me</a>
           </div>
@@ -574,19 +574,20 @@ function WhoSection() {
     <section id="about">
       <div style={{ marginBottom: "1.5rem" }}>
         <h1 style={{ fontFamily: "var(--font-display)", fontSize: "clamp(3.5rem, 10vw, 8rem)", lineHeight: 1, letterSpacing: "0.01em" }}>
-          about
+          about 
         </h1>
         <p style={{ fontFamily: "var(--font-body)", fontSize: "1rem", color: "var(--muted)", marginTop: "0.75rem", fontWeight: 300 }}>
-          [Tagline placeholder — one sentence that sums you up.]
+          someone trying to build something real
         </p>
       </div>
       <div className="divider" style={{ marginBottom: "5rem" }} />
       <div ref={ref} className="fade-up who-grid">
         <div className="who-text">
           <h2 className="section-tag"><span className="bracket">[</span>who i am<span className="bracket">]</span></h2>
-          <p>Placeholder paragraph about yourself. Describe your background — student, country, what you've been studying, what pivoted your thinking. Write in third person like the reference site, or switch to first if that fits your voice.</p>
-          <p>Placeholder continuation. What you noticed about yourself — the paths you rejected, the curiosity that wouldn't quit. Keep it specific, avoid clichés.</p>
-        </div>
+          <p> I'm Pablo, a computer science student based in Spain, I've always had the tension between being grounded and down to earth and thinking "the world is yours". That tension is what drives me </p>
+          <p> I'm into tech and music in all of its aspects (dj, production, concerts), and I'm constantly trying to improve - even when it's uncomfortable</p>
+
+          </div>
         <div className="intro-image">
           <div className="img-placeholder">portrait placeholder</div>
         </div>
@@ -622,12 +623,12 @@ function DrivesSection() {
 }
 
 const LOVES = [
-  { label: "startups", bg: "#c7c0b5" },
+  { label: "music", bg: "#c7c0b5" },
   { label: "tech",     bg: "#1a1a1a" },
-  { label: "sport",    bg: "#b8c9d4" },
-  { label: "nature",   bg: "#9aab8e" },
+  { label: "trying new stuff",    bg: "#b8c9d4" },
+  { label: "travel",   bg: "#9aab8e" },
   { label: "reading",  bg: "#d4c9b4" },
-  { label: "dj / music",bg: "#2a1a3a"},
+  { label: "streetwear",bg: "#2a1a3a"},
 ];
 
 function LovesSection() {
@@ -663,18 +664,18 @@ function Footer() {
             <a href="#about">about</a>
             <a href="#blog">blog</a>
           </div>
-          <p className="footer-email">placeholder@email.com</p>
+          <p className="footer-email">ptorrmen@gmail.com</p>
         </div>
         <div className="footer-socials">
-          <a href="#">x ↗</a>
-          <a href="#">instagram ↗</a>
-          <a href="#">linkedin ↗</a>
-          <a href="#">github ↗</a>
+          <a href="https://x.com/pablo_toorrees" target="_blank" rel="noopener noreferrer">x ↗</a>
+          <a href="https://instagram.com/pablo.toorrees" target="_blank" rel="noopener noreferrer">instagram ↗</a>
+          <a href="https://www.linkedin.com/in/pablo-torres12/" target="_blank" rel="noopener noreferrer">linkedin ↗</a>
+          <a href="https://github.com/PabloTM-00" target="_blank" rel="noopener noreferrer">github ↗</a>
         </div>
       </div>
       <div className="footer-copy">
-        <span>© 2026 [your name]</span>
-        <span>built with intention</span>
+        <span>© 2026 pablo torres</span>
+        <span>built with intention.</span>
       </div>
     </footer>
   );
